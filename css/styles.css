@@ -3,6 +3,11 @@
   --title-text-color: #000000;
   --accent-text-color: #2196f3;
   --primary-white-color: #ffffff;
+  --shadow-box-color: rgba(0, 0, 0, 0.15);
+  --primery-heading-color: #212121;
+  --main-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --footer-nav-color: rgba(255, 255, 255, 0.6);
 }
 
 ul {
@@ -88,8 +93,8 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
 
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: var(--accent-text-color);
+  box-shadow: 0px 4px 4px var(--shadow-box-color);
   border-radius: 4px;
   color: var(--primary-white-color);
 }
@@ -100,7 +105,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--primery-heading-color);
 }
 
 .feauture p {
@@ -117,7 +122,7 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primery-heading-color);
 }
 
 .team {
@@ -127,7 +132,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  background-color: #f5f4fa;
+  background-color: var(--main-bg-color);
   font-size: 16px;
 }
 .team h2 {
@@ -155,8 +160,8 @@ body {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--primery-heading-color);
+  background-color: var(--main-bg-color);
 }
 
 .portfolio-nav:hover,
@@ -170,7 +175,7 @@ h3 {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primery-heading-color);
 }
 
 p {
@@ -184,7 +189,7 @@ p {
 
 /*footer*/
 footer {
-  background-color: #2f303a;
+  background-color: var(--footer-bg-color);
   color: var(--primary-white-color);
   text-decoration: none;
 }
@@ -199,7 +204,7 @@ footer {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-nav-color);
 }
 
 .footer-nav a:focus {
